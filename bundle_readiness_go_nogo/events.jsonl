@@ -1,0 +1,3 @@
+{"k": "vibration_rms", "src": "sensor", "t": 1, "tag": "maintenance", "unit": "mm/s", "v": 9.8}
+{"k": "fault_code", "src": "log", "t": 2, "tag": "readiness", "v": "P-AXLE-OVERTEMP"}
+{"k": "threshold_vibration", "src": "policy", "t": 3, "tag": "gate", "v": 7.0}

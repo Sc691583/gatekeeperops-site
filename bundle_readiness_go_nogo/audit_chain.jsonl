@@ -1,0 +1,2 @@
+{"head": "23f79e60fdba35c7abb50327afa5e0138ea41162a4f1ee9972ddedbaf006f7da", "i": 0, "payload": {"sha256": "9127591ce080a20a262e60fec94d78b0f5f9cc61bf1dc3fcb60db74e302ebed9", "type": "event_stream"}, "prev": "0000000000000000000000000000000000000000000000000000000000000000"}
+{"head": "7815d606fc472519d6926f7775cb28ba5fd14141bf4671d113677870ccec16a7", "i": 1, "payload": {"decision": "NO-GO (defer mission)", "policy_gate": "BLOCK", "ts": 1769449824, "type": "decision_receipt"}, "prev": "23f79e60fdba35c7abb50327afa5e0138ea41162a4f1ee9972ddedbaf006f7da"}

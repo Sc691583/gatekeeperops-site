@@ -22,6 +22,21 @@
 <hr/>
 <h2>Sample bundles (public)</h2>
 <hr/>
+
+<hr/>
+<h2>One-command bootstrap (recommended)</h2>
+<div class="small">This downloads the verifier + full bundle folder and runs verification:</div>
+<div class="card" style="padding:16px"><code>
+SITE="https://sc691583.github.io/gatekeeperops-site"<br/>
+BUNDLE="bundle_readiness_go_nogo"<br/>
+mkdir -p "$BUNDLE"<br/>
+curl -sSL -o verify.py "$SITE/bundles/verify.py"<br/>
+for f in manifest.json events.jsonl decision_receipt.json audit_chain.jsonl replay_manifest.json; do<br/>
+&nbsp;&nbsp;curl -sSL -o "$BUNDLE/$f" "$SITE/bundles/$BUNDLE/$f"<br/>
+done<br/>
+python3 verify.py --bundle "./$BUNDLE"
+</code></div>
+
 <h2>Live proof (public)</h2>
 <div class="small">
 Verifier: <a href="./bundles/verify.py">bundles/verify.py</a><br/>
