@@ -1,0 +1,26 @@
+{
+  "bundle": "bundle_supplychain_release_gate",
+  "expected": {
+    "decision": "RELEASE BLOCKED (provenance mismatch)",
+    "policy_gate": "BLOCK"
+  },
+  "replay_steps": [
+    {
+      "action": "load_events",
+      "path": "events.jsonl",
+      "sha256": "435da92ba3a9be3fd7c5fe9d63273537fac6627eb4df39ad76474ca20e44a417"
+    },
+    {
+      "action": "apply_policy",
+      "policy_gate": "BLOCK"
+    },
+    {
+      "action": "emit_receipt",
+      "path": "decision_receipt.json"
+    },
+    {
+      "action": "verify_chain",
+      "path": "audit_chain.jsonl"
+    }
+  ]
+}

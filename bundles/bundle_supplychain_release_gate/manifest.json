@@ -1,0 +1,11 @@
+{
+  "bundle": "bundle_supplychain_release_gate",
+  "chain_head": "906a7126e52b06a8f38831137a6ea6f72b141c8e7177713b3f5cde3da4b025d4",
+  "created": 1769449824,
+  "files": {
+    "audit_chain.jsonl": "7751693f247f0b4ca34672784574c122f188d4464bdecc0bf171a340d2122534",
+    "decision_receipt.json": "cc5fa47565324367fd48bcc8e4b8a2a9577bbdd675d76b4380a93a6b223f42bf",
+    "events.jsonl": "435da92ba3a9be3fd7c5fe9d63273537fac6627eb4df39ad76474ca20e44a417",
+    "replay_manifest.json": "acae460ebf5b21e6f2d6e2bb8eab1a5033825a4f2861f5eb90b3a74db5a04f42"
+  }
+}

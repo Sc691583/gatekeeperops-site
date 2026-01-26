@@ -1,0 +1,3 @@
+{"k": "artifact", "src": "sbom", "t": 1, "tag": "supply-chain", "v": "component_X_v2.1"}
+{"k": "slsa_level", "src": "provenance", "t": 2, "tag": "supply-chain", "v": "unknown"}
+{"k": "require_slsa", "src": "policy", "t": 3, "tag": "gate", "v": "SLSA>=2"}

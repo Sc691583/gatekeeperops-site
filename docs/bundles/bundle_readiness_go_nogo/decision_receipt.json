@@ -1,0 +1,16 @@
+{
+  "bundle": "bundle_readiness_go_nogo",
+  "decision": "NO-GO (defer mission)",
+  "determinism": "expected",
+  "inputs": {
+    "events_sha256": "9127591ce080a20a262e60fec94d78b0f5f9cc61bf1dc3fcb60db74e302ebed9"
+  },
+  "notes": "synthetic demo bundle for mission assurance proof",
+  "outputs": {
+    "decision": "NO-GO (defer mission)",
+    "policy_gate": "BLOCK"
+  },
+  "policy_gate": "BLOCK",
+  "scenario": "Readiness & Maintenance",
+  "timestamp": 1769449824
+}

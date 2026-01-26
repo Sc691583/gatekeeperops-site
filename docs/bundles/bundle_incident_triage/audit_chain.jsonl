@@ -1,0 +1,2 @@
+{"head": "b8063160cfc313ca42f5f76afe255ee304b8eecc0024d813844228cda0a91785", "i": 0, "payload": {"sha256": "4d39c6ea1d070579b27020aa9c5243635223e598f61336dd4d8eafe7af205bfb", "type": "event_stream"}, "prev": "0000000000000000000000000000000000000000000000000000000000000000"}
+{"head": "57bca1884cbb250722d4c2a55dad3a357318b20f452481012b3a5eeaf453219c", "i": 1, "payload": {"decision": "ISOLATE + ESCALATE", "policy_gate": "WARN", "ts": 1769449824, "type": "decision_receipt"}, "prev": "b8063160cfc313ca42f5f76afe255ee304b8eecc0024d813844228cda0a91785"}

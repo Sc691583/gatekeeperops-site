@@ -1,0 +1,16 @@
+{
+  "bundle": "bundle_incident_triage",
+  "decision": "ISOLATE + ESCALATE",
+  "determinism": "expected",
+  "inputs": {
+    "events_sha256": "4d39c6ea1d070579b27020aa9c5243635223e598f61336dd4d8eafe7af205bfb"
+  },
+  "notes": "synthetic demo bundle for mission assurance proof",
+  "outputs": {
+    "decision": "ISOLATE + ESCALATE",
+    "policy_gate": "WARN"
+  },
+  "policy_gate": "WARN",
+  "scenario": "Incident Triage",
+  "timestamp": 1769449824
+}

@@ -1,0 +1,11 @@
+{
+  "bundle": "bundle_incident_triage",
+  "chain_head": "57bca1884cbb250722d4c2a55dad3a357318b20f452481012b3a5eeaf453219c",
+  "created": 1769449824,
+  "files": {
+    "audit_chain.jsonl": "ec37487b2f1cbd2d855c20164f9b3d825f1dbddb47f27d26b475e860bd506f68",
+    "decision_receipt.json": "6dc53e592e69f8908ce11560d63e7c0d8ad8e29b1a74ae80f67716d5d0c87f5d",
+    "events.jsonl": "4d39c6ea1d070579b27020aa9c5243635223e598f61336dd4d8eafe7af205bfb",
+    "replay_manifest.json": "c68795330eea3176dcec9254871de3e33bbda99bb790fc1c9c74bf7ecb088029"
+  }
+}

@@ -1,0 +1,3 @@
+{"k": "anomaly_score", "src": "net", "t": 1, "tag": "incident", "v": 0.92}
+{"k": "failed_logins_5m", "src": "auth", "t": 2, "tag": "incident", "v": 47}
+{"k": "triage_action", "src": "policy", "t": 3, "tag": "gate", "v": "isolate_then_escalate"}

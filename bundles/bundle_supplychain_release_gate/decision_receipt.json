@@ -1,0 +1,16 @@
+{
+  "bundle": "bundle_supplychain_release_gate",
+  "decision": "RELEASE BLOCKED (provenance mismatch)",
+  "determinism": "expected",
+  "inputs": {
+    "events_sha256": "435da92ba3a9be3fd7c5fe9d63273537fac6627eb4df39ad76474ca20e44a417"
+  },
+  "notes": "synthetic demo bundle for mission assurance proof",
+  "outputs": {
+    "decision": "RELEASE BLOCKED (provenance mismatch)",
+    "policy_gate": "BLOCK"
+  },
+  "policy_gate": "BLOCK",
+  "scenario": "Supply-chain Release Gate",
+  "timestamp": 1769449824
+}

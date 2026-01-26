@@ -1,0 +1,26 @@
+{
+  "bundle": "bundle_incident_triage",
+  "expected": {
+    "decision": "ISOLATE + ESCALATE",
+    "policy_gate": "WARN"
+  },
+  "replay_steps": [
+    {
+      "action": "load_events",
+      "path": "events.jsonl",
+      "sha256": "4d39c6ea1d070579b27020aa9c5243635223e598f61336dd4d8eafe7af205bfb"
+    },
+    {
+      "action": "apply_policy",
+      "policy_gate": "WARN"
+    },
+    {
+      "action": "emit_receipt",
+      "path": "decision_receipt.json"
+    },
+    {
+      "action": "verify_chain",
+      "path": "audit_chain.jsonl"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "bundle": "bundle_readiness_go_nogo",
+  "expected": {
+    "decision": "NO-GO (defer mission)",
+    "policy_gate": "BLOCK"
+  },
+  "replay_steps": [
+    {
+      "action": "load_events",
+      "path": "events.jsonl",
+      "sha256": "9127591ce080a20a262e60fec94d78b0f5f9cc61bf1dc3fcb60db74e302ebed9"
+    },
+    {
+      "action": "apply_policy",
+      "policy_gate": "BLOCK"
+    },
+    {
+      "action": "emit_receipt",
+      "path": "decision_receipt.json"
+    },
+    {
+      "action": "verify_chain",
+      "path": "audit_chain.jsonl"
+    }
+  ]
+}

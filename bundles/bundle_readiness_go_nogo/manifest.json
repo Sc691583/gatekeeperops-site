@@ -1,0 +1,11 @@
+{
+  "bundle": "bundle_readiness_go_nogo",
+  "chain_head": "7815d606fc472519d6926f7775cb28ba5fd14141bf4671d113677870ccec16a7",
+  "created": 1769449824,
+  "files": {
+    "audit_chain.jsonl": "d91b28d4bed5e1389ee7775c2107773cf19388f4c1a8724be1800eb21a80762c",
+    "decision_receipt.json": "d73d3ac0a1978c1ff331a43679e76cb7af82bedac92b296b1d5daa40129b0c65",
+    "events.jsonl": "9127591ce080a20a262e60fec94d78b0f5f9cc61bf1dc3fcb60db74e302ebed9",
+    "replay_manifest.json": "36c73cfb529d7842bda21d6bb665aeff2c28b95a426b7eaa10fd6259db2628f5"
+  }
+}
